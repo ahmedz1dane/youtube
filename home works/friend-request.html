@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            friend request
+
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,700&display=swap" rel="stylesheet">
+        <style>
+            p{
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .profile,
+            .info,
+            .button{
+                display: inline-block;
+                font-family: roboto;
+            }
+            .profile-pic{
+                width: 50px;
+                border-radius: 25px;
+            }
+            .profile{
+                margin-right: 12px;
+            }
+            .info{
+                width: 152px;
+            }
+            .p1{
+                font-weight: bold;
+                font-size: 15px;
+                margin-bottom: 2px;
+            }
+            .p2{
+                font-size: 13px;
+                color: rgb(128, 128, 128);
+            }
+            .p3{
+                font-size: 12px;
+                color: rgb(128, 128, 128);
+            }
+            .follow{
+                color: white;
+                background-color: rgb(8, 106, 218);
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border: none;
+                border-radius: 4px;
+                font-family: arial;
+                font-weight: 400;
+                font-size: 15px;
+                margin: 0;
+                position: center;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+
+            }
+            .grid{
+                margin-top: 50px;
+                display: grid;
+                grid-template-columns:130px ;
+                
+                border-color: rgb(0, 0, 0, 0.1);
+               
+                box-shadow: 1px 1px 5px;
+                display: inline-block;
+            
+                
+            }
+            .grid2{
+                margin-left: 7px;
+                display: grid;
+                grid-template-columns: 40px 90px;
+            }
+            .img1{
+                width: 137px;
+                height: 120px;
+                object-fit: cover;
+            }
+            .img2{
+                width: 25px;
+                border-radius: 25px;
+            }
+            .mutual-frd{
+                font-size: 12px;
+                font-family: arial;
+                color: rgba(128, 128, 128,6);
+            }
+            .name{
+                font-family: arial;
+                font-weight: bold;
+                margin-left: 7px;
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            .button1{
+                background-color: rgba(0, 110, 255,0.8);
+                border-style: none;
+                color: aliceblue;
+                font-family: arial;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                border-radius: 2px;
+                margin-left: 7px;
+                margin-bottom: 5px;
+            }
+            .first-design{
+                display: block;
+                border-color: rgb(0, 0, 0, 0.1);
+                box-shadow: 1px 1px 5px;
+                display: inline-block;
+                padding-left: 7px;
+                padding-right: 7px;
+                padding-top: 5px;
+                padding-bottom: 2px;
+                margin-right: 50px;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="first-design">
+            
+            <div class="profile">
+            <img class="profile-pic" src="/channel-profile/channel-1.jpeg" alt="">
+            </div>
+
+            <div class="info">
+                <p class="p1">Django</p>
+                <p class="p2">The Rapper</p>
+                <p class="p3">Popular</p>
+            </div> 
+
+
+            <div class="button">
+                <input class="follow" type="button" value="Follow">
+
+            </div>
+            
+        </div> 
+            <div class="grid">
+                <div>
+                    <img  class="img1" src="/thumbnails/thumbnail-1.webp">
+                </div>
+
+                <div>
+                    <p class="name">
+                        Oliver
+                    </p>
+                </div>
+
+                <div class="grid2">
+                    <div>
+                        <img class="img2" src="/channel-profile/channel-1.jpeg">
+                    </div>
+                    <div class="mutual-frd">
+                        2 mutual friends
+                    </div>
+
+                </div>
+                <div>
+                    <input class="button1" type="button" value="Add Friend">
+                </div>
+                
+            </div>
+                
+    </body>
+
+</html>
